@@ -5,14 +5,15 @@ Small, focused, reliable releases. Minimal footprint, clear docs, safe-by-defaul
 ## Game mods
 
 ### WoW Forever
-- **[wow-forever-buff-reminder-addon](https://github.com/ByJTT/wow-forever-buff-reminder-addon)** — minimal Druid buff reminder (Mark of the Wild & Thorns). Shown only when missing; click to cast. Taint-safe, 1 Lua file + TOC.
+- **[wow-forever-buff-reminder-addon](https://github.com/ByJTT/wow-forever-buff-reminder-addon)** — minimal Druid buff reminder (Mark of the Wild & Thorns). Shown only when missing; click to cast. Taint-safe, 1 Lua file + TOC.  
+  - *Install folder name (in-game):* `ForeverBuffReminder` (see repo README for exact path)
 
 *More games/mods will be added here over time.*
 
 ## Organization (scales to more games)
 
-- **Default: one mod per repo** under this org. Use clear, searchable names that identify the game and purpose (example: `wow-forever-buff-reminder-addon`). Add topics like `wow-forever`, `<game>`, `mod`, `addon`.
-- **New game?** Add a new section above + a new repo following the same pattern. No monorepo required unless a game genuinely needs a shared framework/tooling.
+- **Default: one mod per repo** under this org. Use clear, searchable names that identify the game and purpose (example: `wow-forever-buff-reminder-addon`). Add topics like `wow-forever`, `<game>`, `game-mod`, `addon`.
+- **New game?** Add a new section above + a new repo following the same pattern. No monorepo required unless a game genuinely needs shared framework/tooling.
 - **Repo name vs install name:** repo names can be SEO-friendly; the in-game folder/addon name must follow the game loader’s requirements (document the exact install path in each repo).
 - **Non-mod projects** (apps/tools/libraries) can live in the same org with clear naming/topics so game mods remain easy to find.
 
